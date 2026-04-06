@@ -1,0 +1,88 @@
+/* RESET */
+html, body {
+    height: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* BODY */
+body {
+    font-family: Arial, sans-serif;
+    color: white;
+    background: #ACD1D7
+        
+}
+
+/* NAVBAR */
+.navbar {
+    background: linear-gradient(to right, #84ADC9, #98BFD0);
+    padding: 15px 40px;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/* SECTION */
+.profile-section {
+    min-height: calc(100% - 60px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* BOX PROFIL (lebih clean) */
+.profile-box {
+    width: 420px;
+    padding: 20px;
+    border-radius: 12px;
+    border: 1px solid rgba(255,255,255,0.3);
+    background: transparent;
+}
+
+/* TABEL STYLE EXCEL */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+/* GRID TIPIS */
+td {
+    padding: 10px;
+    border: 2px solid white;
+}
+
+/* LABEL */
+.label {
+    font-weight: bold;
+    width: 40%;
+}
+
+/* BACK BUTTON */
+.btn {
+    display: block;
+    width: fit-content;
+    margin: 20px auto 40px auto;
+    padding: 10px 25px;
+    border: 2px solid white;
+    color: white;
+    background: rgba(255,255,255,0.1);
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    backdrop-filter: blur(6px);
+    transition: 0.25s ease;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+    background: rgba(255, 255, 255, 0.25); 
+}
