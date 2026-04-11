@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+
+    /* SAMA KAYAK BERANDA */
+    background: linear-gradient(180deg, #7BC6F2, #8DD4FF);
+}
+
+/* NAVBAR (SAMA STYLE BERANDA) */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 25px;
+    background: #4C8FCB;
+    color: white;
+    position: sticky;
+    top: 0;
+}
+
+.logo {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.back-btn {
+    text-decoration: none;
+    color: white;
+    border: 2px solid white;
+    padding: 6px 15px;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.back-btn:hover {
+    background: rgba(255,255,255,0.2);
+}
+
+/* CONTAINER (NGIKUT SECTION STYLE BERANDA) */
+.container {
+    width: 90%;
+    max-width: 900px;
+    margin: 60px auto;
+    padding: 30px;
+
+    background: rgba(255,255,255,0.25);
+    border-radius: 12px;
+
+    color: white;
+    text-align: center;
+}
+
+/* ADMIN CARD (NGIKUT MEMBER STYLE) */
+.admin-card {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+    background: rgba(255,255,255,0.25);
+    padding: 15px;
+    margin-top: 20px;
+
+    border-radius: 12px;
+    text-decoration: none;
+    color: white;
+
+    transition: 0.25s;
+}
+
+.admin-card:hover {
+    transform: translateY(-5px);
+    background: rgba(255,255,255,0.35);
+}
+
+/* FOTO */
+.profil-img {
+    width: 55px;
+    height: 55px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+/* TEXT */
+.text {
+    text-align: left;
+}
+
+.text h3 {
+    margin: 0;
+    font-size: 16px;
+}
+
+.text p {
+    margin: 3px 0 0 0;
+    font-size: 13px;
+    color: #e0f3ff;
+}

@@ -1,0 +1,112 @@
+
+.ranking-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.ranking-table {
+    width: 90%;
+    max-width: 900px;
+    border-collapse: collapse;
+    background: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(4px);
+    border-radius: 15px;
+    overflow: hidden; 
+    box-shadow: 0 7px 15px rgba(0, 0, 0, 0.15);
+}
+
+.ranking-table thead th {
+    background: rgba(0, 120, 200, 0.35);
+    color: #003a60;
+    font-weight: bold;
+    padding: 14px;
+    font-size: 16px;
+    border-bottom: 2px solid rgba(0,0,0,0.15);
+}
+
+.ranking-table td {
+    padding: 12px;
+    font-size: 15px;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+.ranking-table tbody tr:nth-child(even) {
+    background: rgba(255,255,255,0.6);
+}
+
+.ranking-table tbody tr:nth-child(odd) {
+    background: rgba(240,250,255,0.6);
+}
+
+.ranking-table tbody tr:hover {
+    background: rgba(180,220,255,0.6);
+    transition: 0.15s;
+}
+
+.top1 td {
+    background: #ffe57f !important;
+    font-weight: 700;
+}
+.top2 td {
+    background: #d0e8ff !important;
+    font-weight: 700;
+}
+.top3 td {
+    background: #ffc7a3 !important;
+    font-weight: 700;
+}
+
+.search-wrapper {
+    position: relative;
+    width: 260px;
+    margin: 0 auto 20px auto;
+}
+
+.search-wrapper input {
+    width: 100%;
+    padding: 10px 10px 10px 35px;
+    border-radius: 10px;
+    border: 1px solid #8ab6d6;
+    outline: none;
+    background: rgba(255,255,255,0.7);
+    backdrop-filter: blur(4px);
+    transition: 0.2s;
+}
+
+.search-wrapper input:focus {
+    border-color: #005f9e;
+    box-shadow: 0 0 6px rgba(0, 95, 158, 0.4);
+}
+
+.search-wrapper input::placeholder {
+    color: #557;
+}
+
+.search-icon {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    opacity: 0.6;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.back-btn {
+    text-decoration: none;
+    color: white;
+    border: 2px solid white;
+    padding: 6px 15px;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.back-btn:hover {
+    background: rgba(255,255,255,0.2);
+}
